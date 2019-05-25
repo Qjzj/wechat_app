@@ -2,9 +2,35 @@
   "pages": [
     "pages/index/index",
     "pages/mine/mine",
-    "pages/logs/logs",
-    "components/tab-bar/tab-bar"
+    "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#333",
+    "backgroundColor": "#666",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/icon/home.png",
+        "selectedIconPath": "assets/icon/home-select.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "乘车",
+        "iconPath": "assets/icon/code.png",
+        "selectedIconPath": "assets/icon/code.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/icon/mine.png",
+        "selectedIconPath": "assets/icon/mine-select.png"
+      }
+    ],
+    "custom": true
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
