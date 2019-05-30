@@ -1,0 +1,9 @@
+<!-- components/tab-bar/tab-bar.wxml -->
+<view class="tab-bar">
+  <block wx:for="{{list}}" wx:key="index">
+    <cover-view class="item" bindtap="switchTab" data-path="{{item.pagePath}}" data-index="{{index}}">
+      <cover-image class="icon" src="{{selectedIndex === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
+      <cover-view class="txt">{{selectedIndex}}</cover-view>
+    </cover-view>
+  </block>
+</view>
