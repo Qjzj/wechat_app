@@ -1,7 +1,7 @@
 Component({
   data: {
     selectedIndex: 0,
-    list: [{
+    list:[{
         "pagePath": "/pages/index/index",
         "text": "首页",
         "iconPath": "/assets/icon/home.png",

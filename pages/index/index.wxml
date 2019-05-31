@@ -1,4 +1,41 @@
-<!--index.wxml-->
-<view class="container">
-  <text>Hello</text>
+<view class="home">
+  <view class="head">
+    <view class="swiper">
+      <swiper class="swiper-wrap" indicator-color="rgba(0,0,0,.3)" autoplay circular="false">
+        <swiper-item class="swiper-item" item-id="">
+          <image class="img" src="../../assets/images/banner1.jpg"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item" item-id="">
+          <image class="img" src="../../assets/images/banner2.jpg"></image>
+        </swiper-item>
+      </swiper>
+      <view class="location">
+        北京
+        <text class="" selectable="false" decode="true">&gt;</text>
+      </view>
+    </view>
+    <view class="nav">
+      <view class="item cheap">
+        <image src="/assets/icon/cheap.jpg" />
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="/assets/icon/money.jpg" />
+        </view>
+        <text class="txt">小金库</text>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="/assets/icon/game.jpg" />
+        </view>
+        <text class="txt">游戏中心</text>
+      </view>
+      <view class="item">
+        <view class="img">
+          <image src="/assets/icon/around.jpg" />
+        </view>
+        <text class="txt">周边优惠</text>
+      </view>
+    </view>
+  </view>
 </view>
