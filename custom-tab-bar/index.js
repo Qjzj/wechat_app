@@ -28,10 +28,7 @@ Component({
       const index = data['index']
       this.setData({
         selectedIndex: index
-      }, () => {
-        console.log(this.data.selectedIndex, 111);
       })
-      console.log(index);
       wx.switchTab({
         url
       });
